@@ -15,8 +15,8 @@
     },
     "homepage": "https://github.com/bdunn44/hydro-monitor#readme",
     "scripts": {
-      "build:dev": "npm run build:spa-dev && np run build:universal-dev",
-      "build:prod": "npm run build:spa-prod && np run build:universal-prod",
+      "build:dev": "npm run build:spa-dev && npm run build:universal-dev",
+      "build:prod": "npm run build:spa-prod && npm run build:universal-prod",
       "build:spa-dev": "gulp clean && gulp build:spa-dev",
       "build:spa-prod": "gulp clean && gulp build:spa-prod",
       "build:universal-dev": "gulp clean && gulp build:universal-dev",
